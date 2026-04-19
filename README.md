@@ -30,4 +30,4 @@ Implementazione di algoritmi per la manipolazione di immagini digitali tramite t
 * **Competenze**: Modellazione parametrica, algebra lineare applicata alla grafica, image processing .
 
 ---
-*Progetti sviluppati per dimostrare la versatilità del calcolo numerico applicato al settore visuale.*
+*Progetti sviluppati nell'ambito del corso di Metodi Numerici per la Grafica.*
