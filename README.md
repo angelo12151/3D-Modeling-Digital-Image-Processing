@@ -32,7 +32,7 @@ Implementazione di algoritmi per la manipolazione di immagini digitali tramite t
 ---
 
 ## 🖼️ Gallery
-![Pacman 3D Preview](images/pacman3D.png)
+![Pacman 3D Preview](images/Pacman3D.png)
 
 ---
 *Progetti sviluppati nell'ambito del corso di Metodi Numerici per la Grafica.*
