@@ -6,11 +6,11 @@ Questo repository raccoglie progetti focalizzati sulla geometria computazionale 
 
 ### 1. Curva Interpolante Interattiva (`Curva_interpolante_interattiva.m`)
 - **Obiettivo**: Generazione di iniziali tramite inserimento grafico di nodi.
-- [cite_start]**Dettaglio Tecnico**: Utilizzo di tecniche di interpolazione (Spline o polinomiale) per raccordare i punti scelti dall'utente in modo fluido, trasformando input discreti in curve continue[cite: 51, 98].
+- **Dettaglio Tecnico**: Utilizzo di tecniche di interpolazione (Spline o polinomiale) per raccordare i punti scelti dall'utente in modo fluido, trasformando input discreti in curve continue.
 
 ### 2. Modellazione Geometrica 3D (`Pacman_3D.m`, `sedia_3D.m`)
-- [cite_start]**Pacman 3D**: Rappresentazione tridimensionale dell'iconico personaggio tramite superfici parametriche e mesh poligonali .
-- [cite_start]**Sedia 3D**: Esempio di modellazione di oggetti solidi complessi, con gestione delle proporzioni e delle coordinate spaziali .
+- **Pacman 3D**: Rappresentazione tridimensionale dell'iconico personaggio tramite superfici parametriche e mesh poligonali .
+- **Sedia 3D**: Esempio di modellazione di oggetti solidi complessi, con gestione delle proporzioni e delle coordinate spaziali .
 - **Rendering**: Gestione delle luci, delle ombre e della prospettiva tramite i comandi grafici di MATLAB.
 
 ### 3. Digital Image Processing (`Ritocco.m`)
@@ -18,7 +18,7 @@ Questo repository raccoglie progetti focalizzati sulla geometria computazionale 
 - **Algoritmi**:
     - Contrasto esponenziale e negativo.
     - Riduzione dei colori (K8 quantization).
-    - [cite_start]Operazioni puntuali e locali sulle matrici di pixel per il miglioramento dell'immagine[cite: 50, 97].
+    - Operazioni puntuali e locali sulle matrici di pixel per il miglioramento dell'immagine.
 
 ## ⚙️ Tech Stack
 - **Linguaggio**: MATLAB.
