@@ -1,32 +1,33 @@
 # 3D Modeling & Digital Image Processing (MATLAB) 🎨
 
-Questo repository raccoglie progetti focalizzati sulla geometria computazionale e sull'elaborazione digitale delle immagini. Gli script dimostrano l'applicazione di algoritmi matematici per la creazione di contenuti visuali e la manipolazione di dati matriciali (immagini).
-
-## 🛠️ Progetti Inclusi
-
-### 1. Curva Interpolante Interattiva (`Curva_interpolante_interattiva.m`)
-- **Obiettivo**: Generazione di iniziali tramite inserimento grafico di nodi.
-- **Dettaglio Tecnico**: Utilizzo di tecniche di interpolazione (Spline o polinomiale) per raccordare i punti scelti dall'utente in modo fluido, trasformando input discreti in curve continue.
-
-### 2. Modellazione Geometrica 3D (`Pacman_3D.m`, `sedia_3D.m`)
-- **Pacman 3D**: Rappresentazione tridimensionale dell'iconico personaggio tramite superfici parametriche e mesh poligonali .
-- **Sedia 3D**: Esempio di modellazione di oggetti solidi complessi, con gestione delle proporzioni e delle coordinate spaziali .
-- **Rendering**: Gestione delle luci, delle ombre e della prospettiva tramite i comandi grafici di MATLAB.
-
-### 3. Digital Image Processing (`Ritocco.m`)
-- **Filtraggio**: Implementazione di filtri per la manipolazione di immagini digitali.
-- **Algoritmi**:
-    - Contrasto esponenziale e negativo.
-    - Riduzione dei colori (K8 quantization).
-    - Operazioni puntuali e locali sulle matrici di pixel per il miglioramento dell'immagine.
-
-## ⚙️ Tech Stack
-- **Linguaggio**: MATLAB.
-- **Toolbox**: Image Processing, Computational Geometry.
-
-## 🖼️ Gallery
-*[Consiglio: Carica qui gli screenshot di Pacman 3D e della sedia per un impatto immediato]*
-![Pacman 3D Preview](images/pacman_preview.png)
+Il repository raccoglie una serie di progetti focalizzati sulla geometria computazionale e sull'elaborazione digitale delle immagini, dimostrando l'applicazione di algoritmi numerici per la modellazione e la manipolazione di dati visuali .
 
 ---
-*Progetto sviluppato nell'ambito del corso di Metodi Numerici per la Grafica.*
+
+## 🛠️ Progetti Principali
+
+### 1. Curva Interpolante Interattiva (`Curva_interpolante_interattiva.m`)
+* **Algoritmo**: Implementazione dell'**algoritmo di De Boor** per la valutazione e il rendering di curve B-spline.
+* **Interattività**: Utilizzo della funzione `ginput` per l'inserimento dinamico dei nodi di controllo direttamente sull'interfaccia grafica.
+* **Dettaglio Tecnico**: Calcolo ricorsivo dei punti della curva basato su un vettore dei nodi (*knots*) personalizzato per garantire la fluidità del tratto calligrafico.
+
+### 2. Modellazione Geometrica 3D (`Pacman3D.m`, `Sedia3D.m`)
+* **Pacman 3D**: Generazione di un modello tridimensionale tramite **superfici parametriche** in coordinate sferiche.
+* **Sedia 3D**: Costruzione di un oggetto solido complesso mediante la composizione di primitive geometriche, utilizzando `patch` per le superfici piane e mesh cilindriche per le strutture portanti.
+* **Rendering**: Implementazione di modelli di illuminazione *Gouraud* e gestione avanzata di luci e prospettiva (`camlight`, `view`) per un output fotorealistico.
+
+### 3. Image Filtering & Processing (`Ritocco.m`)
+Implementazione di algoritmi per la manipolazione di immagini digitali tramite trasformazioni puntuali sulle matrici di pixel:
+* **Filtro Negativo**: Trasformazione lineare inversa dello spazio colore ($y = 255 - x$).
+* **Filtro Esponenziale**: Mapping non lineare dei valori di intensità per l'espansione del contrasto.
+* **Riduzione Colori**: Algoritmo di quantizzazione (K8) per la riduzione della profondità di bit dell'immagine.
+* **Contrasto Semplice**: Riscalamento dinamico dei valori attorno alla mediana per l'ottimizzazione della gamma dinamica.
+
+---
+
+## ⚙️ Tech Stack
+* **Linguaggio**: MATLAB .
+* **Competenze**: Modellazione parametrica, algebra lineare applicata alla grafica, image processing .
+
+---
+*Progetti sviluppati per dimostrare la versatilità del calcolo numerico applicato al settore visuale.*
